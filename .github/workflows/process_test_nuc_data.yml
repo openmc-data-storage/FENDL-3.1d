@@ -7,7 +7,7 @@ on:
     branches:
     - main
 env:
-  PROCESS_CMD: 'python data/convert_*****.py -d /share/h5_files -r *****'
+  PROCESS_CMD: 'python data/convert_fendl.py -d /share/h5_files -r 3.1d'
 jobs:
     build:
       runs-on: ubuntu-latest
